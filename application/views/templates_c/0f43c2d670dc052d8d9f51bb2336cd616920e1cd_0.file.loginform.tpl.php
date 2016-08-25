@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2016-08-23 16:06:10
+/* Smarty version 3.1.29, created on 2016-08-24 20:05:04
   from "/home/mundhaka/public_html/gmark/application/views/templates/login/loginform.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_57bc7472207151_47453455',
+  'unifunc' => 'content_57bdfdf0ec1f10_25615928',
   'file_dependency' => 
   array (
     '0f43c2d670dc052d8d9f51bb2336cd616920e1cd' => 
     array (
       0 => '/home/mundhaka/public_html/gmark/application/views/templates/login/loginform.tpl',
-      1 => 1471968357,
+      1 => 1472069102,
       2 => 'file',
     ),
   ),
@@ -19,17 +19,17 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_57bc7472207151_47453455 ($_smarty_tpl) {
+function content_57bdfdf0ec1f10_25615928 ($_smarty_tpl) {
 $_smarty_tpl->ext->_inheritance->init($_smarty_tpl, false);
 $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, "content", array (
-  0 => 'block_2634994957bc74721ea4b7_77113040',
+  0 => 'block_204603963657bdfdf0eaebc6_93530782',
   1 => false,
   3 => 0,
   2 => 0,
 ));
 }
 /* {block 'content'}  file:login/loginform.tpl */
-function block_2634994957bc74721ea4b7_77113040($_smarty_tpl, $_blockParentStack) {
+function block_204603963657bdfdf0eaebc6_93530782($_smarty_tpl, $_blockParentStack) {
 ?>
 
     <section class="clearfix col-lg-4"></section>
@@ -54,8 +54,8 @@ function block_2634994957bc74721ea4b7_77113040($_smarty_tpl, $_blockParentStack)
                         <label for="pass"><span class="big">Mot de passe</span></label>
                         <input type="password" name="pass" id="pass" class="full-width" value="">
                     </p>
-
-                    <button type="submit" class="btn btn-primary float-right">Se connecter</button>
+                    <button type="submit" class="btn btn-primary float-right" action=<?php echo $_smarty_tpl->tpl_vars['login']->value;?>
+>Se connecter</button>
                     <p class="input-height">
                         <input type="checkbox" name="keep-logged" id="keep-logged" value="1" class="mini-switch" checked="checked">
                         
@@ -77,7 +77,7 @@ function block_2634994957bc74721ea4b7_77113040($_smarty_tpl, $_blockParentStack)
                 </div>
                 <div class="registration-button">
                     <div class="float-left">
-                        <?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+                        <?php echo $_smarty_tpl->tpl_vars['register']->value;?>
 
                     </div>
                 </div>

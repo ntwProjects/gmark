@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2016-08-24 15:41:50
+/* Smarty version 3.1.29, created on 2016-08-25 08:29:49
   from "/home/mundhaka/public_html/gmark/application/views/templates/nav/navbar.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_57bdc03e404606_53606519',
+  'unifunc' => 'content_57beac7d486d84_77526050',
   'file_dependency' => 
   array (
     'c08eb443421ce73716d4022836fd9dac83e802a3' => 
     array (
       0 => '/home/mundhaka/public_html/gmark/application/views/templates/nav/navbar.tpl',
-      1 => 1472053304,
+      1 => 1472113787,
       2 => 'file',
     ),
   ),
@@ -19,17 +19,17 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_57bdc03e404606_53606519 ($_smarty_tpl) {
+function content_57beac7d486d84_77526050 ($_smarty_tpl) {
 $_smarty_tpl->ext->_inheritance->init($_smarty_tpl, false);
 $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, "nav", array (
-  0 => 'block_3912719357bdc03e3d5a61_14722001',
+  0 => 'block_11723062057beac7d455473_35729932',
   1 => false,
   3 => 0,
   2 => 0,
 ));
 }
 /* {block 'nav'}  file:nav/navbar.tpl */
-function block_3912719357bdc03e3d5a61_14722001($_smarty_tpl, $_blockParentStack) {
+function block_11723062057beac7d455473_35729932($_smarty_tpl, $_blockParentStack) {
 ?>
 
     <nav id="main-nav">
@@ -128,6 +128,23 @@ function block_3912719357bdc03e3d5a61_14722001($_smarty_tpl, $_blockParentStack)
                 <a title="Données de base" href="javascript:void(0)">Données de base</a>
                 <ul>
                     <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                </ul>
+            </li>
+            <li class="settings">
+                <a title="Administration" href="javascript:void(0)">Administration</a>
+                <ul>
+                    <li>
                         <a title="Articles" href="javascript:void(0)">Articles</a>
                     </li>
                     <li>
@@ -140,9 +157,6 @@ function block_3912719357bdc03e3d5a61_14722001($_smarty_tpl, $_blockParentStack)
                         <a title="Add post" href="javascript:void(0)">Add post</a>
                     </li>
                 </ul>
-            </li>
-            <li class="settings">
-                <a title="Administration" href="javascript:void(0)">Administration</a>
             </li>
             <li class="comments">
                 <a title="Comments" href="javascript:void(0)">Comments</a>

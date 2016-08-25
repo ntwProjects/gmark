@@ -362,13 +362,18 @@ article h1 {
     text-shadow: none;
 }
 .block-content h1.red, .block-content .h1.red, .block-content .red h1, .block-content .red .h1, .block-content.red h1, .block-content.red .h1, .red .block-content h1, .red .block-content .h1 {
-    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , white, #ca3535 4%, #790000) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #ffffff, #ca3535 4%, #790000) repeat scroll 0 0;
+    background-image: -moz-linear-gradient(top,#ffffff, #ca3535 4%, #790000) repeat scroll 0 0;
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffffff, #ca3535 4%),to(#790000));
+    background-image: -webkit-linear-gradient(top,#ffffff, #ca3535 4%, #790000) repeat scroll 0 0;
+    background-image: -o-linear-gradient(top,#ffffff, #ca3535 4%, #790000) repeat scroll 0 0;
+    background-image: linear-gradient(to bottom,#ffffff, #ca3535 4%, #790000) repeat scroll 0 0;
     border-color: #bf3636 #5d0000 #0a0000;
 }
 .button, .form legend, .legend, .mini-menu {
-    border: 1px solid white;
+    border: 1px solid #eee;
     border-radius: 0.417em;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    /*box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);*/
     font-weight: normal;
     line-height: 1.333em;
     outline: 0 none;
@@ -388,7 +393,12 @@ article h1 {
 }
 .button.red, .red .button {
     background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #ca3535, #790000) repeat scroll 0 0;
-    color: white;
+    background-image: -moz-linear-gradient(top,#ffffff, #ca3535 4%, #790000) repeat scroll 0 0;
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffffff, #ca3535 4%),to(#790000));
+    background-image: -webkit-linear-gradient(top,#ffffff, #ca3535 4%, #790000) repeat scroll 0 0;
+    background-image: -o-linear-gradient(top,#ffffff, #ca3535 4%, #790000) repeat scroll 0 0;
+    background-image: linear-gradient(to bottom,#ffffff, #ca3535 4%, #790000) repeat scroll 0 0;
+    color: #fff;
 }
 .button.red a, .red .button a {
     color: white;
@@ -595,7 +605,6 @@ section {
     background-image: linear-gradient(to bottom,#08c,#0077b3);*/
     background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #eee, #222) repeat scroll 0 0;
     background-image: -webkit-linear-gradient(top , #eee, #222) repeat scroll 0 0;
-    /*background-image: -o-linear-gradient(top,#08c,#0077b3);*/
     background-image: linear-gradient(to bottom,#eee,#222);
     border-bottom: 1px solid #222;
     border-top: 1px solid #eee;
@@ -2091,6 +2100,11 @@ header .server-info {
 }
 nav {
     background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #014a7d, #3399cc) repeat scroll 0 0;
+    background-image: -moz-linear-gradient(top,#014a7d,#3399cc);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#014a7d),to(#3399cc));
+    background-image: -webkit-linear-gradient(top,#014a7d,#3399cc);
+    background-image: -o-linear-gradient(top,#014a7d,#3399cc);
+    background-image: linear-gradient(to bottom,#014a7d,#3399cc);
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.5) inset;
     height: 82px;
     padding-top: 1.25em;
@@ -2164,7 +2178,7 @@ nav > ul > li.current > ul {
     display: block;
 }
 nav > ul > li > ul > li, #sub-nav a.nav-button {
-    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #9faab6, #465a6e) repeat scroll 0 0;
+    /*background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #9faab6, #465a6e) repeat scroll 0 0;*/
     border-radius: 0.417em;
     box-shadow: 0 0 7px #000000;
     color: white;
@@ -2204,7 +2218,12 @@ nav > ul > li > ul > li > a, #sub-nav a.nav-button > b {
     width: auto;
 }
 nav > ul > li > ul > li > a, #sub-nav a.nav-button > b, nav > ul > li > ul > li.with-menu .menu, nav > ul > li > ul > li.menu-opener .menu-arrow {
-    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #858d95, #46505b 50%, #38424d 50%, #1c2733) repeat scroll 0 0 !important;
+    /*background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #858d95, #46505b 50%, #38424d 50%, #1c2733) repeat scroll 0 0 !important;*/
+    background-image: -moz-linear-gradient(top,#858d95, #46505b 50%, #38424d 50%, #1c2733) repeat scroll 0 0 !important;
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#858d95, #46505b 50%),to(#38424d 50%, #1c2733));
+    background-image: -webkit-linear-gradient(top,#858d95, #46505b 50%, #38424d 50%, #1c2733) repeat scroll 0 0 !important;
+    background-image: -o-linear-gradient(top,#858d95, #46505b 50%, #38424d 50%, #1c2733) repeat scroll 0 0 !important;
+    background-image: linear-gradient(to bottom,#858d95, #46505b 50%, #38424d 50%, #1c2733) repeat scroll 0 0 !important;
 }
 nav > ul > li > ul > li.current > a {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
@@ -2230,9 +2249,14 @@ nav > ul > li > ul > li.current > a:hover {
     color: #666;
 }
 #sub-nav {
-    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #303135, #3c3d42 6%, #404447 18%, #34383b 50%, #25292c 50%, #1a1b1f 63%, black) repeat scroll 0 0;
-    border-top: 1px solid #ff6500;
-    color: white;
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #303135, #3c3d42 6%, #404447 18%, #34383b 50%, #25292c 50%, #1a1b1f 63%, #000000) repeat scroll 0 0;
+    background-image: -moz-linear-gradient(top,#303135, #3c3d42 6%, #404447 18%, #34383b 50%, #25292c 50%, #1a1b1f 63%, #000000);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#014a7d),to(#3399cc));
+    background-image: -webkit-linear-gradient(top,#303135, #3c3d42 6%, #404447 18%, #34383b 50%, #25292c 50%, #1a1b1f 63%, #000000);
+    background-image: -o-linear-gradient(top,#303135, #3c3d42 6%, #404447 18%, #34383b 50%, #25292c 50%, #1a1b1f 63%, #000000);
+    background-image: linear-gradient(to bottom,#303135, #3c3d42 6%, #404447 18%, #34383b 50%, #25292c 50%, #1a1b1f 63%, #000000);
+    border-top: 1px solid #eee;
+    color: #fff;
     height: 2.667em;
     line-height: 2.667em;
     text-align: right;

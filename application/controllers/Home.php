@@ -26,7 +26,8 @@ class Home extends CI_Controller
         $this->smarty->assign('base_url', base_url());
         $this->smarty->assign('css_url', base_url().'/assets/css/');
         $this->smarty->assign('js_url', base_url().'/assets/js/');
-        $this->smarty->assign('url', anchor('/login_validated','S\'enrégistrer','class="btn btn-primary"'));
+        $this->smarty->assign('register', anchor('/login_validated','S\'enrégistrer','class="btn btn-primary"'));
+        $this->smarty->assign('login', site_url().'/login_validated');
         $this->smarty->assign('loginTitle', "Admin");
         
         // show the template

@@ -95,6 +95,23 @@
                 <a title="Données de base" href="javascript:void(0)">Données de base</a>
                 <ul>
                     <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                    <li>
+                        
+                    </li>
+                </ul>
+            </li>
+            <li class="settings">
+                <a title="Administration" href="javascript:void(0)">Administration</a>
+                <ul>
+                    <li>
                         <a title="Articles" href="javascript:void(0)">Articles</a>
                     </li>
                     <li>
@@ -107,9 +124,6 @@
                         <a title="Add post" href="javascript:void(0)">Add post</a>
                     </li>
                 </ul>
-            </li>
-            <li class="settings">
-                <a title="Administration" href="javascript:void(0)">Administration</a>
             </li>
             <li class="comments">
                 <a title="Comments" href="javascript:void(0)">Comments</a>
