@@ -10,7 +10,7 @@
                 <h1>{$loginTitle}</h1>
                 <div class="block-header">Veuillez vous authentifier</div>
 
-                <form class="form with-margin" name="login-form" id="login-form" method="post" action="">
+                <form class="form with-margin" name="login-form" id="login-form" method="post" action="{$login}">
                     <input type="hidden" name="a" id="a" value="send">
                     <p class="inline-small-label">
                         <label for="login"><span class="big">Pseudo</span></label>
@@ -20,10 +20,9 @@
                         <label for="pass"><span class="big">Mot de passe</span></label>
                         <input type="password" name="pass" id="pass" class="full-width" value="">
                     </p>
-                    <button type="submit" class="btn btn-primary float-right" action={$login}>Se connecter</button>
+                    <button type="submit" class="btn btn-primary float-right">Se connecter</button>
                     <p class="input-height">
                         <input type="checkbox" name="keep-logged" id="keep-logged" value="1" class="mini-switch" checked="checked">
-                        {*<span class="mini-switch-replace"></span>*}
                         <label for="keep-logged" class="inline">Garder ma session ouverte</label>
                     </p>
                 </form>
@@ -38,7 +37,6 @@
                             </p>
                         </fieldset>
                     </form>
-
                 </div>
                 <div class="registration-button">
                     <div class="float-left">

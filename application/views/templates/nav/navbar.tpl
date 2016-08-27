@@ -2,10 +2,10 @@
     <nav id="main-nav">
         <ul class="container_12">
             <li class="home current">
-                <a title="" href="javascript:void(0)">Home</a>
+                <a title="" href="{$dashboard}">Home</a>
                 <ul>
                     <li class="current">
-                        <a title="Dashboard" href="javascript:void(0)">Dashboard</a>
+                        <a title="Dashboard" href="{$dashboard}">Dashboard</a>
                     </li>
                     <li>
                         <a title="My profile" href="javascript:void(0)">My profile</a>
@@ -92,7 +92,7 @@
                 </ul>
             </li>
             <li class="write" title="Données de base">
-                <a title="Données de base" href="javascript:void(0)">Données de base</a>
+                <a title="Données de base" href="{$basedata}">Données de base</a>
                 <ul>
                     <li>
                         
@@ -109,7 +109,7 @@
                 </ul>
             </li>
             <li class="settings">
-                <a title="Administration" href="javascript:void(0)">Administration</a>
+                <a title="Administration" href="{$config}">Administration</a>
                 <ul>
                     <li>
                         <a title="Articles" href="javascript:void(0)">Articles</a>
@@ -190,7 +190,7 @@
                     <strong>Admin</strong>
                 </li>
                 <li>
-                    <a class="button red" title="Logout" href="login.php">
+                    <a class="button red" title="Logout" href="{$home}">
                         <span class="smaller">se déconnecter</span>
                     </a>
                 </li>

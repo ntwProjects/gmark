@@ -58,7 +58,7 @@ $autoload['packages'] = array(APPPATH . 'third_party/components/');
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array('smartyLayout'=>'smarty');
+$autoload['libraries'] = array('smartyLayout'=>'smarty', 'database', 'session', 'form_validation');
 
 /*
 | -------------------------------------------------------------------
@@ -89,7 +89,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array('url');
+$autoload['helper'] = array('url', 'form');
 
 /*
 | -------------------------------------------------------------------

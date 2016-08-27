@@ -392,16 +392,16 @@ article h1 {
     color: #666666;
 }
 .button.red, .red .button {
-    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #ca3535, #790000) repeat scroll 0 0;
-    background-image: -moz-linear-gradient(top,#ffffff, #ca3535 4%, #790000) repeat scroll 0 0;
-    background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffffff, #ca3535 4%),to(#790000));
-    background-image: -webkit-linear-gradient(top,#ffffff, #ca3535 4%, #790000) repeat scroll 0 0;
-    background-image: -o-linear-gradient(top,#ffffff, #ca3535 4%, #790000) repeat scroll 0 0;
-    background-image: linear-gradient(to bottom,#ffffff, #ca3535 4%, #790000) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #ca3535,#790000) repeat scroll 0 0;
+    background-image: -moz-linear-gradient(top,#ca3535,#790000);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#ca3535),to(#790000));
+    background-image: -webkit-linear-gradient(top,#ca3535,#790000);
+    background-image: -o-linear-gradient(top,#ca3535,#790000);
+    background-image: linear-gradient(to bottom,#ca3535,#790000);
     color: #fff;
 }
 .button.red a, .red .button a {
-    color: white;
+    color: #fff;
 }
 a.button:hover, .mini-menu > li > a:hover {
     background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #dff3fc, #98d2f3) repeat scroll 0 0;
@@ -2195,7 +2195,12 @@ nav > ul > li > ul > li, #sub-nav a.nav-button {
     width: auto;
 }
 nav > ul > li > ul > li.current {
-    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , white, #dadada 7%, #dadada) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #ffffff, #dadada 7%, #dadada) repeat scroll 0 0;
+    background-image: -moz-linear-gradient(top,#ffffff, #dadada 7%, #dadada);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#ca3535),to(#790000));
+    background-image: -webkit-linear-gradient(top,#ffffff, #dadada 7%, #dadada);
+    background-image: -o-linear-gradient(top,#ffffff, #dadada 7%, #dadada);
+    background-image: linear-gradient(to bottom,#ffffff, #dadada 7%, #dadada);
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     box-shadow: none;
@@ -2269,7 +2274,12 @@ nav > ul > li > ul > li.current > a:hover {
     margin-top: 0.333em;
 }
 #status-bar {
-    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , white, #dadada 6%, white 92%, #cfcfcf) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #fff, #dadada 6%, #fff 92%, #cfcfcf) repeat scroll 0 0;
+    background-image: -moz-linear-gradient(top,#fff, #dadada 6%, #fff 92%, #cfcfcf);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#ca3535),to(#790000));
+    background-image: -webkit-linear-gradient(top,#fff, #dadada 6%, #fff 92%, #cfcfcf);
+    background-image: -o-linear-gradient(top,#fff, #dadada 6%, #fff 92%, #cfcfcf);
+    background-image: linear-gradient(to bottom,#fff, #dadada 6%, #fff 92%, #cfcfcf);
     border-bottom: 1px solid #969696;
     color: #7b7b7b;
     height: 3.25em;
@@ -2294,7 +2304,12 @@ nav > ul > li > ul > li.current > a:hover {
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
-    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , white, #72c6e4 5%, #0c5fa5) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #ffffff, #72c6e4 5%, #0c5fa5) repeat scroll 0 0;
+    background-image: -moz-linear-gradient(top,#ffffff, #72c6e4 5%, #0c5fa5);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#ca3535),to(#790000));
+    background-image: -webkit-linear-gradient(top,#ffffff, #72c6e4 5%, #0c5fa5);
+    background-image: -o-linear-gradient(top,#ffffff, #72c6e4 5%, #0c5fa5);
+    background-image: linear-gradient(to bottom,#ffffff, #72c6e4 5%, #0c5fa5);
     border-color: #0099cc #006699 #003366;
     border-image: none;
     border-radius: 0.417em;

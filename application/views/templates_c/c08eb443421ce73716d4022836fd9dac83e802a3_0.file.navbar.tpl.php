@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.29, created on 2016-08-25 08:29:49
+/* Smarty version 3.1.29, created on 2016-08-27 21:20:37
   from "/home/mundhaka/public_html/gmark/application/views/templates/nav/navbar.tpl" */
 
 if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
   'has_nocache_code' => false,
   'version' => '3.1.29',
-  'unifunc' => 'content_57beac7d486d84_77526050',
+  'unifunc' => 'content_57c2042554c6a1_50617585',
   'file_dependency' => 
   array (
     'c08eb443421ce73716d4022836fd9dac83e802a3' => 
     array (
       0 => '/home/mundhaka/public_html/gmark/application/views/templates/nav/navbar.tpl',
-      1 => 1472113787,
+      1 => 1472332173,
       2 => 'file',
     ),
   ),
@@ -19,26 +19,28 @@ if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl,
   array (
   ),
 ),false)) {
-function content_57beac7d486d84_77526050 ($_smarty_tpl) {
+function content_57c2042554c6a1_50617585 ($_smarty_tpl) {
 $_smarty_tpl->ext->_inheritance->init($_smarty_tpl, false);
 $_smarty_tpl->ext->_inheritance->processBlock($_smarty_tpl, 0, "nav", array (
-  0 => 'block_11723062057beac7d455473_35729932',
+  0 => 'block_164892250857c2042551be79_14377908',
   1 => false,
   3 => 0,
   2 => 0,
 ));
 }
 /* {block 'nav'}  file:nav/navbar.tpl */
-function block_11723062057beac7d455473_35729932($_smarty_tpl, $_blockParentStack) {
+function block_164892250857c2042551be79_14377908($_smarty_tpl, $_blockParentStack) {
 ?>
 
     <nav id="main-nav">
         <ul class="container_12">
             <li class="home current">
-                <a title="" href="javascript:void(0)">Home</a>
+                <a title="" href="<?php echo $_smarty_tpl->tpl_vars['dashboard']->value;?>
+">Home</a>
                 <ul>
                     <li class="current">
-                        <a title="Dashboard" href="javascript:void(0)">Dashboard</a>
+                        <a title="Dashboard" href="<?php echo $_smarty_tpl->tpl_vars['dashboard']->value;?>
+">Dashboard</a>
                     </li>
                     <li>
                         <a title="My profile" href="javascript:void(0)">My profile</a>
@@ -125,7 +127,8 @@ function block_11723062057beac7d455473_35729932($_smarty_tpl, $_blockParentStack
                 </ul>
             </li>
             <li class="write" title="Données de base">
-                <a title="Données de base" href="javascript:void(0)">Données de base</a>
+                <a title="Données de base" href="<?php echo $_smarty_tpl->tpl_vars['basedata']->value;?>
+">Données de base</a>
                 <ul>
                     <li>
                         
@@ -142,7 +145,8 @@ function block_11723062057beac7d455473_35729932($_smarty_tpl, $_blockParentStack
                 </ul>
             </li>
             <li class="settings">
-                <a title="Administration" href="javascript:void(0)">Administration</a>
+                <a title="Administration" href="<?php echo $_smarty_tpl->tpl_vars['config']->value;?>
+">Administration</a>
                 <ul>
                     <li>
                         <a title="Articles" href="javascript:void(0)">Articles</a>
@@ -223,7 +227,8 @@ function block_11723062057beac7d455473_35729932($_smarty_tpl, $_blockParentStack
                     <strong>Admin</strong>
                 </li>
                 <li>
-                    <a class="button red" title="Logout" href="login.php">
+                    <a class="button red" title="Logout" href="<?php echo $_smarty_tpl->tpl_vars['home']->value;?>
+">
                         <span class="smaller">se déconnecter</span>
                     </a>
                 </li>
